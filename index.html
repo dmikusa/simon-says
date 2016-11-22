@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-US" class="loading">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Simon Says</title>
+
+	<meta name="description" content="A simple 'Simon Says' style game.">
+	<meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        jQuery(document).ready(
+            function() { game.setup($('#start'),
+                                    $('#app'),
+                                    $('#message'),
+                                    $('input:radio[name="difficulty"]'),
+                                    $('#score')); }
+        );
+    </script>
+</head>
+<body>
+    <div id="main">
+        <h1>Simon Says</h1>
+        <p>To learn more about HTML5 and CSS3, I've created a version of the classic &quot;Simon Says&quot; game.</p>
+        <p>To play, watch and remember the pattern of colors that is presented on the screen.  When the pattern completes, you'll be asked to enter the pattern in the same order that it was presented to you.  The pattern will get faster and more complicated as the game progresses.  The object is to complete as many rounds as possible.</p>
+        <p>Select the difficulty:
+          <input type="radio" name="difficulty" value="1000" checked /> Easy
+          <input type="radio" name="difficulty" value="750" /> Normal
+          <input type="radio" name="difficulty" value="500" /> Hard
+        </p>
+        <p>To begin, click the <button id="start" name="start">Start</button> button.</p>
+        <div id="scoreboard">
+          <h3><span id="message">&nbsp;</span></h3>
+          <h3>Score: <span id="score">0</span></h3>
+        </div>
+        <hr/>
+        <div id="app">
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+            <div id="box4"></div>
+        </div>
+        <hr/>
+        <p class="footer">Created by Daniel Mikusa, 2013</p>
+        <p class="footer">Source availble <a href="#">here.</a>
+    </div>
+</body>
+</html>

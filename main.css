@@ -1,0 +1,165 @@
+div#main {
+    width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, Arial, Verdana;
+    color: #444;
+}
+
+div#main h1 {
+    color: #222;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+div#main p {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+div#main p.footer {
+    font-size: 9px;
+    color: #888;
+}
+
+div#main hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+div#app {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#app div {
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    border: 4px solid #000;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+    box-shadow: 0 1px 5px rgba(0,0,0,0.75);
+}
+
+div#app div:first-child {
+    margin-top: 10px;
+}
+
+.msg-info {
+    color: black;
+}
+
+.msg-good {
+    color: green;
+}
+
+.msg-error {
+    color: red;
+}
+
+#scoreboard {
+    overflow: hidden;
+}
+
+#scoreboard h3 {
+    display: inline;
+    margin: 0;
+    width: 50%;
+}
+
+#scoreboard h3:first-child {
+    margin-left: 1em;
+}
+
+#scoreboard h3:last-child {
+    float: right;
+    margin-right: 1em;
+    text-align: right;
+}
+
+/* Green Box */
+div#app div#box1 {
+    background: rgb(117,183,154); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(117,183,154,1) 0%, rgba(0,110,46,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(117,183,154,1)), color-stop(100%,rgba(0,110,46,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(117,183,154,1) 0%,rgba(0,110,46,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(117,183,154,1) 0%,rgba(0,110,46,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(117,183,154,1) 0%,rgba(0,110,46,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(117,183,154,1) 0%,rgba(0,110,46,1) 100%); /* W3C */
+}
+
+div#app div#box1:active, div#app div#box1.clicked {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(117,183,154,0.5) 0%, rgba(0,110,46,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(117,183,154,0.5)), color-stop(100%,rgba(0,110,46,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(117,183,154,0.5) 0%,rgba(0,110,46,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(117,183,154,0.5) 0%,rgba(0,110,46,0.5) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(117,183,154,0.5) 0%,rgba(0,110,46,0.5) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(117,183,154,0.5) 0%,rgba(0,110,46,0.5) 100%); /* W3C */
+}
+
+/* Red Box */
+div#app div#box2 {
+    background: #ff3019; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  #ff3019 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ff3019), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #ff3019 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #ff3019 0%,#cf0404 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #ff3019 0%,#cf0404 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #ff3019 0%,#cf0404 100%); /* W3C */
+}
+
+div#app div#box2:active, div#app div#box2.clicked {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(255,48,25,0.5) 0%, rgba(207,4,4,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,48,25,0.5)), color-stop(100%,rgba(207,4,4,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,48,25,0.5) 0%,rgba(207,4,4,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(255,48,25,0.5) 0%,rgba(207,4,4,0.5) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(255,48,25,0.5) 0%,rgba(207,4,4,0.5) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(255,48,25,0.5) 0%,rgba(207,4,4,0.5) 100%); /* W3C */
+}
+
+/* Yellow Box */
+div#app div#box3 {
+    background: rgb(252,240,136); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(252,240,136,1) 0%, rgba(241,218,54,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(252,240,136,1)), color-stop(100%,rgba(241,218,54,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(252,240,136,1) 0%,rgba(241,218,54,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(252,240,136,1) 0%,rgba(241,218,54,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(252,240,136,1) 0%,rgba(241,218,54,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(252,240,136,1) 0%,rgba(241,218,54,1) 100%); /* W3C */
+}
+
+div#app div#box3:active, div#app div#box3.clicked {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(252,240,136,0.5) 0%, rgba(241,218,54,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(252,240,136,0.5)), color-stop(100%,rgba(241,218,54,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(252,240,136,0.5) 0%,rgba(241,218,54,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(252,240,136,0.5) 0%,rgba(241,218,54,0.5) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(252,240,136,0.5) 0%,rgba(241,218,54,0.5) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(252,240,136,0.5) 0%,rgba(241,218,54,0.5) 100%); /* W3C */
+}
+
+/* Blue Box */
+div#app div#box4 {
+    background: rgb(41,140,232); /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(41,140,232,1) 0%, rgba(35,32,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(41,140,232,1)), color-stop(100%,rgba(35,32,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(41,140,232,1) 0%,rgba(35,32,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(41,140,232,1) 0%,rgba(35,32,232,1) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(41,140,232,1) 0%,rgba(35,32,232,1) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(41,140,232,1) 0%,rgba(35,32,232,1) 100%); /* W3C */
+}
+
+div#app div#box4:active, div#app div#box4.clicked {
+    background: -moz-radial-gradient(center, ellipse cover,  rgba(41,140,232,0.5) 0%, rgba(35,32,232,0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(41,140,232,0.5)), color-stop(100%,rgba(35,32,232,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(41,140,232,0.5) 0%,rgba(35,32,232,0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  rgba(41,140,232,0.5) 0%,rgba(35,32,232,0.5) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  rgba(41,140,232,0.5) 0%,rgba(35,32,232,0.5) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  rgba(41,140,232,0.5) 0%,rgba(35,32,232,0.5) 100%); /* W3C */
+}
