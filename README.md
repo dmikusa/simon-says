@@ -12,4 +12,4 @@ To play the game, watch and remember the pattern of colors that is presented on 
 
 ## Demo
 
-Demo [here](https://www.mikusa.com/simon-says/index.html).
+Demo [here](http://www.mikusa.com/simon-says/index.html).
